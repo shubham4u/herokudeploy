@@ -25,6 +25,7 @@ export class SignupComponent implements OnInit {
   mailPattern="^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$";
   stepdatePattern = "/^([0-9]{2})-([0-9]{2})-([0-9]{4})$/";
   passwordPattern ="^[a-zA-Z\s]*$";
+  datePattern="/^([0-9]{2})-([0-9]{2})-([0-9]{4})$/";
 
   ngOnInit() {
   }

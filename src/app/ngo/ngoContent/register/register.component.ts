@@ -13,6 +13,10 @@ export class RegisterComponent implements OnInit {
   
   constructor(private router:Router, private service: NgoserviceService) { }
 
+  cpassword=false;
+  vpassword=false;
+  vcpassword=false;
+  
   namePattern ="^[a-zA-Z\s]*$";
   mailPattern="^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$";
   contactnoPattern = "^((\\+91-?)|0)?[0-9]{10}$";
