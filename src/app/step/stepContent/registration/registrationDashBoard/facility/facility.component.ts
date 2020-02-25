@@ -8,7 +8,7 @@ import { StepserviceService } from 'src/app/step/stepservice.service';
 })
 export class FacilityComponent implements OnInit {
   FacilityList;
-
+  searchbox;
   constructor(private service: StepserviceService) { }
 
   ngOnInit(): void {

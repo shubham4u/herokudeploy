@@ -16,7 +16,9 @@ export class SignupComponent implements OnInit {
   name=false;
   email=false;
   date=false;
-  password=false;
+  vpassword=false;
+  vcpassword=false;
+  cpassword=false;
 
   enduser: EndUser = new EndUser();
   namePattern ="^[a-zA-Z\s]*$";

@@ -8,7 +8,7 @@ import { StepserviceService } from '../../stepservice.service';
 })
 export class NgoComponent implements OnInit {
   ngodata: any;
-
+  searchbox;
   constructor(private service: StepserviceService) { }
 
   ngOnInit():void {

@@ -19,6 +19,12 @@ export class RegistrationComponent implements OnInit {
   hqualification=false;
   steppassword=false;
   stepcpassword=false;
+  vmstatus=false;
+  vhqualification=false;
+  vaddress=false;
+  vstate=false;
+  vdistrict=false;
+  vpincode=false;
 
   namePattern ="^[a-zA-Z\s]*$";
   mailPattern="^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$";

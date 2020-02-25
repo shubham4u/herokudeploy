@@ -8,7 +8,7 @@ import { StepserviceService } from 'src/app/step/stepservice.service';
 })
 export class TrainingprogrammeComponent implements OnInit {
   TrProgrammeList;
-
+  searchbox;
   constructor(private service: StepserviceService) { }
 
   ngOnInit() {
