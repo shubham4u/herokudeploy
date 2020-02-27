@@ -26,19 +26,19 @@ export class RegisterComponent implements OnInit {
 
   ngo: Ngo = new Ngo();
 
-  // ngoid               =false;
-  // ngoname             =false;
-  // ngoemail            =false;
-  // ngoaddress          =false;
-  // ngocontact          =false;
-  // ngoinchargename     =false;
-  // ngoinchargeemail    =false;
-  // ngopassword         =false;
-  // ngoinchargecontactno=false;
-  // ngoinchargeaddress  =false;
-  // ngoinchargeadharno  =false;
-  // ngocertificateno    =false;
-  // ngoestablishmentyear=false;
+  ngoid               =false;
+  ngoname             =false;
+  ngoemail            =false;
+  ngoaddress          =false;
+  ngocontact          =false;
+  ngoinchargename     =false;
+  ngoinchargeemail    =false;
+  ngopassword         =false;
+  ngoinchargecontactno=false;
+  ngoinchargeaddress  =false;
+  ngoinchargeadharno  =false;
+  ngocertificateno    =false;
+  ngoestablishmentyear=false;
   
   ngOnInit() {
 
@@ -46,7 +46,7 @@ export class RegisterComponent implements OnInit {
 
   ngoregister() {
     this.service.ngoRegisterAddData(this.ngo);
-    // this.router.navigate(['/step/registration/option']);
-    this.router.navigate(['/ngo/criteria']);
+    this.router.navigate(['/step/registration/option']);
+    // this.router.navigate(['/ngo/criteria']);
   }
 }

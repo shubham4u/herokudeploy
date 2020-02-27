@@ -24,6 +24,7 @@ const routes: Routes = [
   { path: 'step/training', component: TrainingsectorComponent },
   { path: 'step/registration', component: RegistrationComponent },
   { path: 'step/stepfaq', component: FaqComponent },
+  { path: 'step/stepngo', component: NgoComponent },
   { path: 'step/registration/option', component:OptionComponent },
   { path: 'step/registration/trprogramme', component:TrainingprogrammeComponent},
   { path: 'step/registration/facility', component:FacilityComponent},

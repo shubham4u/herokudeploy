@@ -1,5 +1,4 @@
 export class Ngo {
-    ngoid                       :number=3;
     ngoname                     :String;
     ngoemail                    :string;
     ngoaddress                  :string;

@@ -22,13 +22,13 @@ export class FacilityComponent implements OnInit {
     ngofacregister() {
 
       let ngofacdata = {
-        n_FacId: this.ngofac.n_FacId,
+        // n_FacId: this.ngofac.n_FacId,
         n_FacName: this.ngofac.n_FacName,
         n_FacCapacity:this.ngofac.n_FacCapacity,
         n_FacCity:this.ngofac.n_FacCity,
         ngofc : 1,
         toString() {
-               var jsondata = `{n_FacId:${this.n_FacId}, n_FacName:"${this.n_FacName}", n_FacCapacity:${this.n_FacCapacity},
+               var jsondata = `{n_FacName:"${this.n_FacName}", n_FacCapacity:${this.n_FacCapacity},
        ngofc:${this.ngofc}, n_FacCity:"${this.n_FacCity}"}`;
           return jsondata;
         }

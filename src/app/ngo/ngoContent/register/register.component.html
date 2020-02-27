@@ -13,14 +13,14 @@ ngNativeValidate>
         <input type="text" class="form-control" [(ngModel)]="ngo.ngoemail" name="email" [pattern]="mailPattern" #umail="ngModel" id="email" placeholder="Email Address" required />
       </div>
       <div class="form-group">
-        <label for="contact">Contact No.</label>
+        <label for="contact">Contact Number</label>
         <input type="number" class="form-control" [(ngModel)]="ngo.ngocontact" name="contactno" [pattern]="contactnoPattern" #ucontact="ngModel" id="contact" placeholder="Contact Number" required />
       <div *ngIf="mform.errors?.pattern">
       <span>Error</span> 
       </div>
       </div>
       <div class="form-group">
-        <label for="certificate">NGO </label>
+        <label for="certificate">NGO Certificate Number</label>
         <input type="number" class="form-control" [(ngModel)]="ngo.ngocertificateno" name="certnum" id="certificateno"  placeholder="certificate number" required />
       </div>
       <div class="form-group">
@@ -33,23 +33,23 @@ ngNativeValidate>
       </div>
       <div class="form-group">
         <label for="Ngo Incharge Email">Incharge Email</label>
-        <input type="email" class="form-control" [(ngModel)]="ngo.ngoinchargeemail" name="NGO_INCHARGE_EMAIL" [pattern]="mailPattern" #uinchargeemail="ngModel" id="inchargeemail" placeholder="NGO_INCHARGE_EMAIL" required/>
+        <input type="email" class="form-control" [(ngModel)]="ngo.ngoinchargeemail" name="NGO_INCHARGE_EMAIL" [pattern]="mailPattern" #uinchargeemail="ngModel" id="inchargeemail" placeholder="NGO INCHARGE EMAIL" required/>
       </div>
       <div class="form-group">
         <label for="Ngo Incharge Contact No">Incharge Contact No.</label>
-        <input type="number" class="form-control" [(ngModel)]="ngo.ngoinchargecontactno" name="NGO_INCHARGE_CONTACT_NO" [pattern]="contactnoPattern" #uinchargecontact="ngModel" id="inchargecontact" placeholder="NGO_INCHARGE_CONTACT_NO" required/>
+        <input type="number" class="form-control" [(ngModel)]="ngo.ngoinchargecontactno" name="NGO_INCHARGE_CONTACT_NO" [pattern]="contactnoPattern" #uinchargecontact="ngModel" id="inchargecontact" placeholder="NGO INCHARGE CONTACT NO." required/>
         </div>
       <div class="form-group">
         <label for="Ngo Incharge Adhar No">Incharge Adhar No.</label>
-        <input type="number" class="form-control" [(ngModel)]="ngo.ngoinchargeadharno" name="NGO_INCHARGE_ADHAR_NO" [pattern]="adharPattern " #uinchargeadharno="ngModel" id="inchargeadharno" placeholder="NGO_INCHARGE_ADHAR_NO" required/>
+        <input type="number" class="form-control" [(ngModel)]="ngo.ngoinchargeadharno" name="NGO_INCHARGE_ADHAR_NO" [pattern]="adharPattern " #uinchargeadharno="ngModel" id="inchargeadharno" placeholder="NGO INCHARGE ADHAR NO" required/>
       </div>
       <div class="form-group">
         <label for="Ngo Address">Incharge Address</label>
-        <input type="text" class="form-control" [(ngModel)]="ngo.ngoinchargeaddress" name="NGO_INCHARGE_ADDRESS" id="inchargeaddress" placeholder="NGO_INCHARGE_ADDRESS" required/>
+        <input type="text" class="form-control" [(ngModel)]="ngo.ngoinchargeaddress" name="NGO_INCHARGE_ADDRESS" id="inchargeaddress" placeholder="NGO INCHARGE ADDRESS" required/>
       </div>
       <div class="form-group">
         <label for="Ngo Establishment Year">Ngo Establishment Year</label>
-        <input type="date" class="form-control" [(ngModel)]="ngo.ngoestablishmentyear" name="NGO_ESTABLISHMENT_YEAR" [pattern]="datePattern" #ungodate="ngModel" placeholder="NGO_ESTABLISHMENT_YEAR" required/>
+        <input type="date" class="form-control" [(ngModel)]="ngo.ngoestablishmentyear" name="NGO_ESTABLISHMENT_YEAR" [pattern]="datePattern" #ungodate="ngModel" placeholder="ESTABLISHMENT YEAR" required/>
       </div>
       <div class="form-group">
         <label for="password">Password</label>

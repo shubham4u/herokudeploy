@@ -16,7 +16,7 @@ export class NgoserviceService {
   trprg:TrPrg = new TrPrg(); 
 
   ngoRegisterAddData(ngo:Ngo) {
-    alert('check Id is changed or not')
+    // alert('check Id is changed or not');
     console.log(JSON.stringify(ngo));
     let url="http://192.168.14.74:8686/WomenEmpowermentV2/postngo";
     this.http.post(url, ngo).subscribe((data)=>{
@@ -26,7 +26,7 @@ export class NgoserviceService {
   }
 
   addngofac(ngofac: NgoFacility) {
-    alert('Json Problem of FK')
+    // alert('Json Problem of FK')
     console.log(JSON.stringify(ngofac));
     // let abc = ",'ngo':{'ngoid':1}";
     let url="http://192.168.14.74:8686/WomenEmpowermentV2/postNgoFacReg";
@@ -37,7 +37,7 @@ export class NgoserviceService {
   }
 
   addngotrprg(trprg:TrPrg) {
-    alert('Json Problem of FK')
+    // alert('Json Problem of FK')
     console.log(JSON.stringify(trprg));
     // let abc = ",'ngo':{'ngoid':1}";
     let url="http://192.168.14.74:8686/WomenEmpowermentV2/postNgoProgReg";
